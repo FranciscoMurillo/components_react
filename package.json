@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "author": "Francisco López",
   "license": "ISC",
@@ -19,9 +18,9 @@
     "@storybook/addon-actions": "^5.3.8",
     "@storybook/addon-knobs": "^5.3.8",
     "@storybook/react": "^5.3.7",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.6",
     "gh-pages": "^2.2.0",
     "lerna": "^3.20.2"
-  },
-  "homepage": "https://framlopez.github.io/library-components-template/"
+  }
 }

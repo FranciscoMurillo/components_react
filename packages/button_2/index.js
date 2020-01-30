@@ -1,20 +1,30 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+  import React from 'react';
+  import PropTypes from 'prop-types';
 
-import './index.css';
+  import './index.css';
 
-class Button extends React.PureComponent {
-  render() {
-    return (
-      <button className="button">
-        Button
-      </button>
-    );
+  class Button extends React.PureComponent {
+    render() {
+      const { size, disabled, text, onClick } = this.props;
+      return (
+        <button className={`button button--${size}`} disabled={disabled} onClick={onClick}>
+          {text}
+        </button>
+      );
+    }
   }
-}
 
-Button.propTypes = {
+  Button.propTypes = {
+    text: PropTypes.string.isRequired,
+    size: PropTypes.oneOf(['small', 'large']),
+    disabled: PropTypes.bool,
+    onClick: PropTypes.func,
+  };
 
-};
+  Button.defaultProps = {
+    size: 'small',
+    disabled: false,
+    onClick: null,
+  };
 
-module.exports = Button;
+  export default Button;

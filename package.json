@@ -4,9 +4,11 @@
   "description": "A partir de este código vas a poder comenzar a manejar tu propia librería de componentes.",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "author": "",
+  "author": "Francisco López",
   "license": "ISC",
   "dependencies": {
     "react": "^16.12.0",
@@ -21,12 +23,5 @@
     "gh-pages": "^2.2.0",
     "lerna": "^3.20.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/framlopez/library-components-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/framlopez/library-components-template/issues"
-  },
-  "homepage": "https://github.com/framlopez/library-components-template#readme"
+  "homepage": "https://framlopez.github.io/library-components-template/"
 }

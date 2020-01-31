@@ -6,7 +6,7 @@
   class Button extends React.PureComponent {
     render() {
       const { size, disabled, text, onClick } = this.props;
-      console.log('aca');
+      console.log('acaconsole.log();');
       return (
         <button className={`button button--${size}`} disabled={disabled} onClick={onClick}>
           {text}

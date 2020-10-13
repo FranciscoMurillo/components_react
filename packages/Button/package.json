@@ -1,0 +1,8 @@
+{
+    "name": "button",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Francisco Murillo",
+    "license": "ISC",
+    "description": "Componente Button"
+}

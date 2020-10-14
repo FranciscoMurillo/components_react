@@ -5,5 +5,8 @@
     "author": "Francisco Murillo",
     "license": "ISC",
     "description": "Componente Button",
-    "gitHead": "06468321050097d708871742d0a6728104fb9910"
+    "gitHead": "623458efc9f49d3657259a66e38d24f82b8669b1",
+    "scripts": {
+        "test": "echo testing button with version: $npm_package_version"
+    }
 }

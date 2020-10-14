@@ -1,12 +1,12 @@
 .button {
-    background-color: blue;
+    background-color: orange;
     border-radius: 4px;
     cursor: pointer;
     color: #fff;
     border: none;
   }
   .button:hover {
-    background-color: #84afff;
+    background-color: #ffd484;
     transition: all 0.5s ease-out;
 
   }

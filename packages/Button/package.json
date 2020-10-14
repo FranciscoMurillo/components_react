@@ -1,8 +1,9 @@
 {
-    "name": "button_react",
+    "name": "@fjstreet/button_react",
     "version": "0.0.3",
     "main": "index.js",
     "author": "Francisco Murillo",
     "license": "ISC",
-    "description": "Componente Button"
+    "description": "Componente Button",
+    "gitHead": "143d1f6b29209cf9779e983c5a5727ee6fb80121"
 }

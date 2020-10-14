@@ -1,8 +1,8 @@
 {
-  "name": "Button",
-  "version": "0.0.2",
+  "name": "button_test",
+  "version": "0.0.1",
   "main": "index.js",
-  "author": "Francisco López",
+  "author": "Francisco Murillo",
   "license": "ISC",
   "description": "Componente Button"
 }

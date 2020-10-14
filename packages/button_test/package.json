@@ -1,8 +1,9 @@
 {
-  "name": "button_test",
-  "version": "0.1.0",
+  "name": "@fjstreet/button_test",
+  "version": "0.1.1",
   "main": "index.js",
   "author": "Francisco Murillo",
   "license": "ISC",
-  "description": "Componente Button"
+  "description": "Componente Button",
+  "gitHead": "ac2f29fc0187ccbca6259d4c685e19f829d9828d"
 }

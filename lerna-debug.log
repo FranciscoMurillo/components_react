@@ -1,0 +1,6 @@
+36 error Error: Command failed: git tag v0.0.4 -m v0.0.4
+36 error fatal: el tag 'v0.0.4' ya existe
+36 error
+36 error     at makeError (/home/fjstreet/Documentos/Temis/library-components-template/node_modules/execa/index.js:174:9)
+36 error     at /home/fjstreet/Documentos/Temis/library-components-template/node_modules/execa/index.js:278:16
+36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)

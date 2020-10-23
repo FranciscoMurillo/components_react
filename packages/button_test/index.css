@@ -1,6 +1,5 @@
 
 .button {
-  transition: background 0.2s ease, padding 0.2s ease;
   background-color: #ed9664;
   border-radius: 4px;
   cursor: pointer;
